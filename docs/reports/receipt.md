@@ -2,22 +2,19 @@
 
 A representative receipt from the RELiV digital purchase and dispensing workflow.
 
-> **Privacy:** Use anonymized or synthetic information in any publicly distributed receipt.
+> **Privacy:** Publicly distributed versions should use anonymized or synthetic information.
 
-## Receipt Preview
+## Preview
 
-The full sample receipt is available as a PDF:
+**[🧾 Open the Sample Receipt](Reliv-Receipt.pdf)**
 
-**[🧾 Open Sample Receipt](Reliv-Receipt.pdf)**
+The receipt demonstrates:
 
-## Included sections
-
-- Purchase/session reference
-- Payment method and verification state
+- Purchase and session reference
+- Payment verification
 - Item, quantity and amount
-- Digital payment confirmation
+- Digital transaction confirmation
 - Receipt generation
-- Customer support information
 
 > **Demo notice:** This is a product demonstration artifact and does not represent a live transaction.
 
