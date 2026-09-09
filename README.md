@@ -43,7 +43,7 @@ The current prototype combines a physical kiosk, local computing, sensor integra
 
 The strongest proof of RELiV is the physical machine itself.
 
-**Demo video:** add the real machine walkthrough as `assets/demo/reliv-machine-demo.mp4` when the video is available in the repository workspace.
+**Demo video:** the repository is ready for the real machine walkthrough to be added as `assets/demo/reliv-machine-demo.mp4`.
 
 A short 10–20 second loop can also be added as `assets/demo/reliv-demo.gif` for a visual README preview.
 
@@ -105,9 +105,9 @@ A short 10–20 second loop can also be added as `assets/demo/reliv-demo.gif` fo
 
 The repository is intended to use real RELiV assets rather than generated mockups.
 
-| Physical Kiosk | Health Report | Digital Receipt |
+| Physical Prototype | Health Report | Digital Receipt |
 |---|---|---|
-| ![RELiV kiosk](assets/gallery/reliv-kiosk.jpg) | [View sample report](docs/reports/sample-health-report.pdf) | [View sample receipt](docs/reports/sample-receipt.pdf) |
+| ![RELiV prototype](assets/posters/reliv-now-live.jpg) | [Explore report](docs/reports/health-report.md) | [Explore receipt](docs/reports/receipt.md) |
 
 ---
 
@@ -124,6 +124,8 @@ RELiV's sample report is designed as a multi-section wellness experience rather 
 - QR-based report access
 
 The supplied sample report is a product/demo artifact and should not be interpreted as a medical diagnosis or clinical validation.
+
+**[Read the report documentation →](docs/reports/health-report.md)**
 
 ---
 
@@ -273,9 +275,9 @@ RELiV is also being developed under the **Student Innovation / Hardware** framin
 
 | Resource | Description |
 |---|---|
-| [SIH Presentation](docs/presentation/Reliv-SIH-2026.pptx) | Full project presentation and technical/business context |
-| [Sample Health Report](docs/reports/sample-health-report.pdf) | Demonstration wellness report |
-| [Sample Receipt](docs/reports/sample-receipt.pdf) | Demonstration digital purchase receipt |
+| [SIH Presentation Hub](docs/presentation/README.md) | Full project presentation and technical/business context |
+| [Sample Health Report](docs/reports/health-report.md) | Demonstration wellness report |
+| [Sample Receipt](docs/reports/receipt.md) | Demonstration digital purchase receipt |
 | [System Architecture](docs/architecture/system-architecture.md) | Architecture and data-flow notes |
 | [Product Workflow](docs/architecture/product-workflow.md) | Patient and dispensing journeys |
 
