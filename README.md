@@ -97,7 +97,7 @@ A short 10–20 second loop can also be added as `assets/demo/reliv-demo.gif` fo
 
 ### 🖼️ Product Poster
 
-![RELiV — Now Live](assets/posters/reliv-now-live.jpeg)
+![RELiV — Now Live](assets/gallery/reliv-now-live.jpeg)
 
 ---
 
@@ -107,7 +107,7 @@ The repository is intended to use real RELiV assets rather than generated mockup
 
 | Physical Prototype | Health Report | Digital Receipt |
 |---|---|---|
-| ![RELiV prototype](assets/posters/reliv-now-live.svg) | [Explore report](docs/reports/health-report.md) | [Explore receipt](docs/reports/receipt.md) |
+| ![RELiV prototype](assets/gallery/reliv-now-live.jpeg) | [Explore report](docs/reports/health-report.md) | [Explore receipt](docs/reports/receipt.md) |
 
 ---
 
