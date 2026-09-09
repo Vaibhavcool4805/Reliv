@@ -1,5 +1,13 @@
 # RELiV Product Workflow
 
+## 🎥 Physical Machine Demo
+
+See the RELiV kiosk in operation:
+
+**[▶️ Watch the full machine demonstration on Google Drive](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)**
+
+> Make sure the Drive file is shared as **Anyone with the link → Viewer** so visitors can access the demo.
+
 ## Health check
 
 ```text
