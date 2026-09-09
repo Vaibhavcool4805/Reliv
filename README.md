@@ -107,7 +107,7 @@ The repository is intended to use real RELiV assets rather than generated mockup
 
 | Physical Prototype | Health Report | Digital Receipt |
 |---|---|---|
-| [RELiV prototype](assets/gallery/reliv-now-live.jpeg) | [Explore report](docs/reports/Sample-health-report.pdf) | [Explore receipt](docs/reports/receipt.md) |
+| [RELiV prototype](assets/gallery/reliv-now-live.jpeg) | [Explore report](docs/reports/Sample-Health-Report.pdf) | [Explore receipt](docs/reports/receipt.md) |
 
 ---
 
