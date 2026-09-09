@@ -1,17 +1,25 @@
 # RELiV Sample Health Report
 
-The sample report is a three-page product/demo artifact showing the intended reporting experience.
+A representative sample of the digital wellness report generated from a RELiV screening session.
+
+> **Privacy:** Use anonymized or synthetic information in any publicly distributed report.
+
+## Report Preview
+
+The full sample report is available as a PDF:
+
+**[📄 Open Sample Health Report](Sample-Health-Report.pdf)**
 
 ## Included sections
 
-- Patient/session details
-- Blood pressure, SpO₂, pulse and temperature
-- Advanced body-composition analysis
+- Vital signs overview
+- Body-composition metrics
+- Integrated analysis cards
 - Current health-status tables
 - Weekly consistency confidence
 - 7-day wellness journey
 - QR-based report access
 
-> **Demo notice:** this is a product artifact, not clinical validation or a medical diagnosis. Before public deployment, use anonymized/synthetic data only.
+> **Demo notice:** This is a product demonstration artifact. It is not clinical validation or a medical diagnosis.
 
-The original supplied PDF should be uploaded as `sample-health-report.pdf` when publishing the repository's document assets.
+[← Back to RELiV](../../README.md)
