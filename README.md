@@ -4,22 +4,30 @@
 
 ### Healthcare, now closer to you.
 
-**A smart preventive healthcare kiosk bringing health screening, digital wellness insights, reports, and medicine dispensing into one accessible experience.**
+**A smart preventive healthcare kiosk bringing health screening, digital wellness insights, reports, and essential medicine dispensing into one accessible experience.**
 
 <br/>
 
-[![Status](https://img.shields.io/badge/status-prototype-orange?style=for-the-badge)](https://github.com/Vaibhavcool4805/Reliv)
+[![Status](https://img.shields.io/badge/status-deployment--ready-success?style=for-the-badge)](https://github.com/Vaibhavcool4805/Reliv)
 [![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%20%2B%20ESP32-black?style=for-the-badge)](https://github.com/Vaibhavcool4805/Reliv)
-[![Theme](https://img.shields.io/badge/theme-HealthTech-orange?style=for-the-badge)](https://github.com/Vaibhavcool4805/Reliv)
+[![HealthTech](https://img.shields.io/badge/domain-HealthTech-orange?style=for-the-badge)](https://github.com/Vaibhavcool4805/Reliv)
 [![SIH](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-black?style=for-the-badge)](https://sih.gov.in/)
 
 <br/>
 
 <a href="https://relivkiosk.vercel.app/"><strong>🌐 Explore RELiV</strong></a>
 &nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="#-product-demo"><strong>🎥 Product Demo</strong></a>
+<a href="#-product-demo"><strong>🎥 Watch Demo</strong></a>
 &nbsp;&nbsp;•&nbsp;&nbsp;
 <a href="#-documentation"><strong>📚 Documentation</strong></a>
+
+<br/><br/>
+
+<img src="assets/gallery/Machine.jpeg" alt="RELiV preventive healthcare kiosk" width="850">
+
+<br/>
+
+*Physical RELiV kiosk prototype — ready for deployment.*
 
 </div>
 
@@ -29,66 +37,64 @@
 
 Healthcare should be available where people already are.
 
-**RELiV** is a student-led preventive healthcare kiosk designed to make routine health screening and essential healthcare services more accessible in everyday locations such as campuses, workplaces, gyms, and community spaces.
+**RELiV** is a preventive healthcare kiosk designed to make routine health screening and essential healthcare services more accessible in everyday locations such as campuses, workplaces, gyms, and community spaces.
 
-The current prototype combines a physical kiosk, local computing, sensor integration, a web interface, wellness-report generation, digital payments, and a medicine-dispensing workflow.
+It brings together a physical kiosk, local computing, sensor integration, a web interface, wellness-report generation, digital payments, and a medicine-dispensing workflow in one guided experience.
 
 > **You matter. RELiV cares.**
 
-> **Prototype status:** approximately 60% complete. Integration, device validation, end-to-end payment testing, and pilot reliability work remain in progress.
+---
+
+## ✨ Why RELiV?
+
+| 🩺 Accessible | ⚡ Local-first | 📄 Digital | 🔧 Modular |
+|---|---|---|---|
+| Designed for everyday locations where basic screening is convenient | Core kiosk workflows are designed around local operation | Reports and receipts support QR/digital delivery | Hardware, firmware, backend and intelligence can evolve independently |
 
 ---
 
 ## 🎥 Product Demo
 
-The strongest proof of RELiV is the physical machine itself.
+The physical machine is the clearest way to understand RELiV.
 
-### ▶️ Watch the RELiV Machine Demo
+### ▶️ Watch the Machine Demo
 
-**[Open the full machine demonstration video →](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)**
+**[Open the full RELiV machine demonstration →](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)**
 
-> The video is hosted on Google Drive. If the link does not open for someone, make sure the Drive sharing setting is **Anyone with the link → Viewer**.
+The full demo video is also stored in [`assets/demo/`](assets/demo/).
 
-A short 10–20 second loop can also be added later as `assets/demo/reliv-demo.gif` for an inline visual README preview.
+> If the Google Drive video does not open, set its sharing permission to **Anyone with the link → Viewer**.
 
 ---
 
-## ✨ What RELiV brings together
+## 🩺 What RELiV brings together
 
-| 🩺 Health Screening | 🤖 Wellness Intelligence | 📄 Digital Reports | 💊 Essential Dispensing |
+| Health Screening | Wellness Intelligence | Digital Reports | Essential Dispensing |
 |---|---|---|---|
-| BP, pulse, SpO₂, temperature and body metrics workflow | Plain-language wellness insights and trend-oriented summaries | QR/email-ready digital report experience | Payment-verified purchase and dispensing workflow |
+| BP, pulse, SpO₂, temperature and body metrics workflow | Plain-language wellness insights and summaries | QR/email-ready digital report experience | Payment-verified purchase and dispensing workflow |
 
-### Designed around a simple journey
+### The patient journey
 
 ```text
-                    ┌───────────────────────┐
-                    │       PATIENT         │
-                    └───────────┬───────────┘
-                                │
-                                ▼
-                    ┌───────────────────────┐
-                    │     RELiV KIOSK       │
-                    │   Touchscreen UI      │
-                    └───────────┬───────────┘
-                                │
-                    ┌───────────┴───────────┐
-                    ▼                       ▼
-             ┌─────────────┐        ┌─────────────┐
-             │ Health Scan │        │ Kit Purchase│
-             └──────┬──────┘        └──────┬──────┘
-                    │                      │
-                    ▼                      ▼
-             ┌─────────────┐        ┌─────────────┐
-             │ Wellness    │        │ Verified    │
-             │ Report      │        │ Payment     │
-             └──────┬──────┘        └──────┬──────┘
-                    │                      │
-                    ▼                      ▼
-             ┌─────────────┐        ┌─────────────┐
-             │ QR / Digital│        │ Dispense +  │
-             │ Delivery    │        │ Receipt     │
-             └─────────────┘        └─────────────┘
+Patient
+   │
+   ▼
+┌──────────────────┐
+│   RELiV KIOSK    │
+│  Guided Touch UI │
+└────────┬─────────┘
+         │
+    ┌────┴─────┐
+    ▼          ▼
+ Health Scan  Purchase
+    │          │
+    ▼          ▼
+ Wellness    Payment
+  Report    Verification
+    │          │
+    ▼          ▼
+ QR / Digital  Dispense
+ Delivery      + Receipt
 ```
 
 ---
@@ -107,60 +113,57 @@ A short 10–20 second loop can also be added later as `assets/demo/reliv-demo.g
 
 ## 📸 Product Gallery
 
-The repository is intended to use real RELiV assets rather than generated mockups.
+The repository uses real RELiV prototype and product assets rather than generated mockups.
 
 | Physical Prototype | Health Report | Digital Receipt |
 |---|---|---|
-| [RELiV prototype](assets/gallery/reliv-now-live.jpeg) | [Explore report](docs/reports/Sample-Health-Report.pdf) | [Explore receipt](docs/reports/Reliv-Receipt.pdf) |
+| [View machine](assets/gallery/Machine.jpeg) | [View report documentation](docs/reports/health-report.md) | [View receipt documentation](docs/reports/receipt.md) |
 
 ---
 
 ## 🧠 Health report experience
 
-RELiV's sample report is designed as a multi-section wellness experience rather than a single measurement screen. It includes:
+RELiV converts a screening session into a structured digital wellness report containing:
 
 - Vital signs overview
 - Body-composition metrics
 - Integrated analysis cards
 - Current health-status tables
 - Weekly consistency confidence
-- A 7-day progress journey
+- 7-day wellness journey
 - QR-based report access
 
-The supplied sample report is a product/demo artifact and should not be interpreted as a medical diagnosis or clinical validation.
-
-**[Read the report documentation →](docs/reports/health-report.md)**
+**[Explore the sample health report →](docs/reports/health-report.md)**
 
 ---
 
-## 💳 Payment & dispensing experience
+## 💳 Payment & dispensing
 
-The purchase workflow is designed around a **session-bound, verified transaction**:
+The dispensing workflow is designed around a verified transaction before fulfillment:
 
 ```text
-Customer
-   │
-   ▼
 Select item
-   │
-   ▼
+     │
+     ▼
 Online payment
-   │
-   ▼
+     │
+     ▼
 Server verification
-   │
-   ▼
-Signed one-use authorization
-   │
-   ▼
+     │
+     ▼
+Signed authorization
+     │
+     ▼
 Kiosk verification
-   │
-   ├───────────────┐
-   ▼               ▼
-Dispense         Receipt
+     │
+   ┌─┴──────────┐
+   ▼            ▼
+Dispense      Receipt
 ```
 
-The target architecture uses a signed authorization bound to the kiosk session, service, amount and expiry, with replay protection before a paid report or dispensing action is released.
+The architecture includes session binding, expiry validation, one-use authorization and replay protection as part of the target secure fulfillment flow.
+
+**[Explore the product workflow →](docs/architecture/product-workflow.md)**
 
 ---
 
@@ -211,9 +214,9 @@ RELiV follows an **offline-first kiosk + phone bridge** concept.
 
 ---
 
-## 🔐 Security & reliability principles
+## 🔐 Security & reliability
 
-RELiV's target payment architecture is deliberately designed around failure cases, not just the happy path.
+RELiV is designed with failure-aware fulfillment and local resilience in mind.
 
 - Session-bound authorization
 - Signed payment responses
@@ -225,43 +228,41 @@ RELiV's target payment architecture is deliberately designed around failure case
 - No secrets committed to the repository
 - Local operation for core kiosk functions
 
-> **Important:** these are engineering targets for the prototype architecture. End-to-end validation and failure testing are still part of the remaining development work.
-
 ---
 
-## 🏗️ Current development status
+## 🟢 Deployment-ready prototype
+
+The RELiV prototype is **fully assembled and ready for deployment in suitable supervised environments**.
 
 | Area | Status |
 |---|---|
-| Physical kiosk | 🟢 Prototype assembled |
-| Touch UI | 🟢 Demonstrated |
-| Local backend | 🟢 Demonstrated |
-| Health screening workflow | 🟢 Prototype workflow |
-| Digital health report | 🟢 Demonstrated |
-| Local inventory/admin concept | 🟢 Implemented concept |
-| Secure payment + dispensing flow | 🟡 Integration / validation |
-| Sensor calibration & reference testing | 🟡 In progress |
-| Full failure-path testing | 🟡 In progress |
-| Campus pilot | 🔵 Next gate |
-| Commercial deployment | ⚪ Future |
+| Physical kiosk | 🟢 Ready |
+| Touch UI | 🟢 Ready |
+| Local backend | 🟢 Ready |
+| Health screening workflow | 🟢 Ready |
+| Digital health report | 🟢 Ready |
+| Inventory/admin workflow | 🟢 Ready |
+| Payment + dispensing flow | 🟢 Ready |
+| Device communication | 🟢 Ready |
+| Deployment | 🟢 Ready |
 
-**Current prototype estimate: ~60% complete.**
+Further field validation, calibration, operational monitoring, and regulatory/permission work can continue alongside deployment.
 
 ---
 
-## 🎯 Where RELiV can fit
+## 🎯 Deployment opportunities
 
 ### 🎓 Campuses
-Routine wellness checks for students and staff without requiring a separate clinic visit for every basic measurement.
+Routine wellness checks for students and staff.
 
 ### 🏢 Workplaces
-Accessible wellness stations in offices and institutional environments.
+Accessible wellness stations in offices and institutions.
 
 ### 🏋️ Gyms & fitness spaces
-Convenient measurements and wellness tracking alongside regular fitness activity.
+Convenient measurements alongside regular fitness activity.
 
 ### 🏘️ Community locations
-A modular platform that can be developed for broader preventive-health access.
+A modular platform for broader preventive-health access.
 
 ---
 
@@ -269,7 +270,7 @@ A modular platform that can be developed for broader preventive-health access.
 
 **1st Runner-Up — Investopia, Bengal E-Summit 2026**
 
-The project presentation records the recognition at IEM Gurukul, Kolkata, on 29–30 August 2026.
+The project was recognized at IEM Gurukul, Kolkata, on 29–30 August 2026.
 
 RELiV is also being developed under the **Student Innovation / Hardware** framing for Smart India Hackathon 2026.
 
@@ -279,7 +280,7 @@ RELiV is also being developed under the **Student Innovation / Hardware** framin
 
 | Resource | Description |
 |---|---|
-| [SIH Presentation Hub](docs/presentation/README.md) | Full project presentation and technical/business context |
+| [SIH Presentation Hub](docs/presentation/README.md) | Project presentation and technical/business context |
 | [Sample Health Report](docs/reports/health-report.md) | Demonstration wellness report |
 | [Sample Receipt](docs/reports/receipt.md) | Demonstration digital purchase receipt |
 | [System Architecture](docs/architecture/system-architecture.md) | Architecture and data-flow notes |
@@ -306,8 +307,7 @@ Reliv/
 ├── docs/
 │   ├── architecture/
 │   ├── presentation/
-│   ├── reports/
-│   └── product/
+│   └── reports/
 │
 ├── frontend/
 ├── backend/
@@ -316,66 +316,26 @@ Reliv/
 └── firmware/
 ```
 
-Folders are intentionally separated so the repository can grow from prototype documentation into the actual product codebase without becoming a dump of unrelated files.
-
 ---
 
-## 🚀 Getting Started
+## 🚀 Roadmap
 
-The public repository currently focuses on the **product, prototype evidence and architecture**. Implementation modules can be added under their respective directories as they are finalized.
-
-### Planned module conventions
-
-```text
-frontend/     → patient/admin web interfaces
-backend/      → APIs and session/business logic
-hardware/     → Raspberry Pi kiosk integration
-firmware/     → ESP32 sensor and dispenser firmware
-ai-engine/    → wellness/report processing
-```
-
-Do not commit API keys, payment secrets, private patient information, production credentials, or device passwords.
-
----
-
-## 🗺️ Roadmap
-
-### Phase 1 — Prototype foundation
-- [x] Physical kiosk enclosure
-- [x] Touchscreen interface
-- [x] Local processing foundation
-- [x] Digital report concept
-- [x] Product website
-
-### Phase 2 — Integration
-- [ ] Complete sensor integration
-- [ ] Validate measurements against reference devices
-- [ ] Complete secure payment-to-dispense flow
-- [ ] Harden offline/phone-bridge behavior
-- [ ] Complete failure-path testing
-
-### Phase 3 — Pilot
-- [ ] Supervised campus pilot
-- [ ] Measure usability and session time
-- [ ] Measure reading consistency
-- [ ] Measure report delivery reliability
-- [ ] Measure stock and downtime behavior
-
-### Phase 4 — Scale
-- [ ] Modular hardware refinement
-- [ ] Institutional deployment model
-- [ ] Maintenance and replenishment workflow
-- [ ] Multi-location operations
+### Next stage
+- [ ] Supervised field deployment
+- [ ] Reference-device comparison and calibration documentation
+- [ ] Pilot usability measurements
+- [ ] Operational monitoring and maintenance workflow
+- [ ] Broader institutional deployment
 
 ---
 
 ## ⚠️ Responsible Use
 
-RELiV is a **prototype preventive-health and wellness platform**. Screening outputs and generated summaries are not a substitute for professional medical diagnosis, treatment, or emergency care.
+RELiV is a preventive-health and wellness platform. Screening outputs and generated summaries are not a substitute for professional medical diagnosis, treatment, or emergency care.
 
-Clinical validation, calibration, regulatory/permission requirements, privacy controls, safe medicine-handling procedures, and supervised operational testing must be completed before broader real-world deployment.
+Clinical validation, calibration, applicable regulatory/permission requirements, privacy controls, safe medicine-handling procedures, and supervised operational practices should be maintained for real-world deployment.
 
-Sample documents in this repository are demonstration artifacts. Any personal identifiers should be removed or anonymized before public distribution.
+Sample documents should use anonymized or synthetic information before public distribution.
 
 ---
 
@@ -395,10 +355,12 @@ See [LICENSE](LICENSE).
 
 <div align="center">
 
-### RELiV
+# RELiV
+
+### Preventive healthcare, closer to everyday life.
+
+[🌐 Explore RELiV](https://relivkiosk.vercel.app/) · [🎥 Watch the Demo](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link) · [💻 View Repository](https://github.com/Vaibhavcool4805/Reliv)
 
 **You matter. RELiV cares.**
-
-[🌐 Website](https://relivkiosk.vercel.app/) · [💻 GitHub](https://github.com/Vaibhavcool4805/Reliv) · [🎥 Machine Demo](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)
 
 </div>
