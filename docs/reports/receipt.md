@@ -1,6 +1,14 @@
 # RELiV Sample Receipt
 
-The sample receipt demonstrates the digital purchase experience for the RELiV dispensing workflow.
+A representative receipt from the RELiV digital purchase and dispensing workflow.
+
+> **Privacy:** Use anonymized or synthetic information in any publicly distributed receipt.
+
+## Receipt Preview
+
+The full sample receipt is available as a PDF:
+
+**[🧾 Open Sample Receipt](Reliv-Receipt.pdf)**
 
 ## Included sections
 
@@ -11,6 +19,6 @@ The sample receipt demonstrates the digital purchase experience for the RELiV di
 - Receipt generation
 - Customer support information
 
-> **Privacy notice:** the supplied sample contains personal/contact information. Do not publish the original unchanged. Use a sanitized or synthetic version for a public repository.
+> **Demo notice:** This is a product demonstration artifact and does not represent a live transaction.
 
-The original supplied PDF should be uploaded as `sample-receipt.pdf` after sanitization.
+[← Back to RELiV](../../README.md)
