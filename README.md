@@ -125,7 +125,7 @@ RELiV's sample report is designed as a multi-section wellness experience rather 
 
 The supplied sample report is a product/demo artifact and should not be interpreted as a medical diagnosis or clinical validation.
 
-**[Read the report documentation →](docs/reports/health-report.md)**
+**[Read the report documentation →](docs/reports/Sample-Health-Report.pdf)**
 
 ---
 
