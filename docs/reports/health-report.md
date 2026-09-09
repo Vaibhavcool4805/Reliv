@@ -1,25 +1,20 @@
 # RELiV Sample Health Report
 
-A representative sample of the digital wellness report generated from a RELiV screening session.
+A representative digital wellness report generated from a RELiV screening session.
 
-> **Privacy:** Use anonymized or synthetic information in any publicly distributed report.
+> **Privacy:** Publicly distributed versions should use anonymized or synthetic information.
 
-## Report Preview
+## Preview
 
-The full sample report is available as a PDF:
+**[📄 Open the Sample Health Report](Sample-Health-Report.pdf)**
 
-**[📄 Open Sample Health Report](Sample-Health-Report.pdf)**
+The report demonstrates:
 
-## Included sections
+- Vital signs and body-composition information
+- Wellness analysis and summary cards
+- Progress-oriented insights
+- QR-based digital access
 
-- Vital signs overview
-- Body-composition metrics
-- Integrated analysis cards
-- Current health-status tables
-- Weekly consistency confidence
-- 7-day wellness journey
-- QR-based report access
-
-> **Demo notice:** This is a product demonstration artifact. It is not clinical validation or a medical diagnosis.
+> **Demo notice:** This is a product demonstration artifact, not a medical diagnosis or clinical validation.
 
 [← Back to RELiV](../../README.md)
