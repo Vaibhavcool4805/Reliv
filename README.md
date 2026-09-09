@@ -43,9 +43,13 @@ The current prototype combines a physical kiosk, local computing, sensor integra
 
 The strongest proof of RELiV is the physical machine itself.
 
-**Demo video:** the repository is ready for the real machine walkthrough to be added as `assets/demo/reliv-machine-demo.mp4`.
+### ▶️ Watch the RELiV Machine Demo
 
-A short 10–20 second loop can also be added as `assets/demo/reliv-demo.gif` for a visual README preview.
+**[Open the full machine demonstration video →](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)**
+
+> The video is hosted on Google Drive. If the link does not open for someone, make sure the Drive sharing setting is **Anyone with the link → Viewer**.
+
+A short 10–20 second loop can also be added later as `assets/demo/reliv-demo.gif` for an inline visual README preview.
 
 ---
 
@@ -125,7 +129,7 @@ RELiV's sample report is designed as a multi-section wellness experience rather 
 
 The supplied sample report is a product/demo artifact and should not be interpreted as a medical diagnosis or clinical validation.
 
-**[Read the report documentation →](docs/reports/Sample-Health-Report.pdf)**
+**[Read the report documentation →](docs/reports/health-report.md)**
 
 ---
 
@@ -395,6 +399,6 @@ See [LICENSE](LICENSE).
 
 **You matter. RELiV cares.**
 
-[🌐 Website](https://relivkiosk.vercel.app/) · [💻 GitHub](https://github.com/Vaibhavcool4805/Reliv)
+[🌐 Website](https://relivkiosk.vercel.app/) · [💻 GitHub](https://github.com/Vaibhavcool4805/Reliv) · [🎥 Machine Demo](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)
 
 </div>
