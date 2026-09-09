@@ -97,7 +97,7 @@ A short 10–20 second loop can also be added as `assets/demo/reliv-demo.gif` fo
 
 ### 🖼️ Product Poster
 
-![RELiV — Now Live](assets/posters/reliv-now-live.svg)
+![RELiV — Now Live](assets/posters/reliv-now-live.jpeg)
 
 ---
 
