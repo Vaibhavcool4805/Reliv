@@ -1,14 +1,35 @@
 # RELiV Product Workflow
 
-## 🎥 Physical Machine Demo
+## Product journey
 
-See the RELiV kiosk in operation:
+```text
+PATIENT
+   │
+   ▼
+RELiV KIOSK
+   │
+   ├───────────────┐
+   ▼               ▼
+HEALTH SCREEN    PURCHASE
+   │               │
+   ▼               ▼
+WELLNESS         PAYMENT
+ANALYSIS       VERIFICATION
+   │               │
+   ▼               ▼
+DIGITAL REPORT   AUTHORIZATION
+   │               │
+   ▼               ▼
+QR / DIGITAL     KIOSK CHECK
+DELIVERY           │
+                   ▼
+               DISPENSING
+                   │
+                   ▼
+                RECEIPT
+```
 
-**[▶️ Watch the full machine demonstration on Google Drive](https://drive.google.com/file/d/1P1BW-T57UvRlH1Z3W7Fd4589EpWNdnWm/view?usp=drive_link)**
-
-> Make sure the Drive file is shared as **Anyone with the link → Viewer** so visitors can access the demo.
-
-## Health check
+## Health screening
 
 ```text
 Patient → Start session → Capture measurements → Process locally → Generate wellness summary → QR / digital delivery
